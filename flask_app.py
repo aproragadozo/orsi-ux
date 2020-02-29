@@ -17,3 +17,7 @@ def inq():
 @app.route('/portfolio')
 def portfolio():
     return render_template("portfolio.html")
+
+@app.route('/garmer')
+def garmer():
+    return render_template("garmer.html")

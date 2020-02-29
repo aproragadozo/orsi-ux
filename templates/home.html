@@ -14,13 +14,27 @@
 <body>
     <div id="wrapper">
         <p class="title">Digital Design Works</p>
-        <a class="section" href="http://www.kagpacks.hu" target="_blank" style="background-image: url('../static/img/kag.jpg');">
+        <a class="section"
+            href="{{ url_for('garmer') }}"
+            target="_blank"
+            style="background-image: url('../static/img/garmer.jpg');">
+            <p>Garmer Clothing App</p>
+        </a>
+        <a class="section"
+            href="http://www.kagpacks.hu"
+            target="_blank"
+            style="background-image: url('../static/img/kag.jpg');">
             <p>Kag Website</p>
         </a>
-        <a class=" section" href="{{ url_for('inq') }}" target="_blank" style="background-image: url('../static/img/inq.jpg');">
+        <a class=" section"
+            href="{{ url_for('inq') }}"
+            target="_blank"
+            style="background-image: url('../static/img/inq.jpg');">
             <p>INQ womenswear catalogue</p>
         </a>
-        <a class="section" href="{{ url_for('portfolio') }}" target="_blank" style="background-image: url('../static/img/portfolio.jpg');">
+        <a class="section"
+            href="{{ url_for('portfolio') }}"
+            target="_blank" style="background-image: url('../static/img/portfolio.jpg');">
             <p>Apparel Design portfolio</p>
         </a>
     </div>
